@@ -1,3 +1,7 @@
+> docker image build -t godcode/hello-service .
+
+> docker run -p 8080:8080 godcode/hello-service
+
 # Multi-module example
 
 This example shows how to build multiple containers for a multi-module project in both **Maven** and **Gradle**.
